@@ -5,7 +5,7 @@ This application demonstrates a simple saas web application built on spring boot
 
 To run the applicaiton, simply run this command:
 
-    ./gradlew :server:bootRunko
+    ./gradlew :server:bootRun
 
 Then go to:
 
