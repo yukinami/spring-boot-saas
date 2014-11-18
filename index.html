@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Spring-boot-saas : a simple saas web applicaiton demo built on spring boot">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Spring-boot-saas</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/yukinami/spring-boot-saas">View on GitHub</a>
+
+          <h1 id="project_title">Spring-boot-saas</h1>
+          <h2 id="project_tagline">a simple saas web applicaiton demo built on spring boot</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/yukinami/spring-boot-saas/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/yukinami/spring-boot-saas/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="spring-boot-saas-demo" class="anchor" href="#spring-boot-saas-demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Spring Boot SaaS Demo</h1>
+
+<p>This application demonstrates a simple saas web application built on spring boot.</p>
+
+<p>To run the applicaiton, simply run this command:</p>
+
+<pre><code>./gradlew bootRun
+</code></pre>
+
+<p>Then go to:</p>
+
+<ul>
+<li>http://localhost:8080/b1/tenant_inventories/ to show inventories belongs to tenant b1</li>
+<li>http://localhost:8080/root_inventories/ to match root resource (not belongs to any tenant)</li>
+<li>http://localhost:8080/b1/root_inventories/ show the usage of @TenantResource annotation which canbe used at method level to override the class level annotation</li>
+<li>http://localhost:8080/b1/tenant_inventories/root show the usage of @RootResource annotation which is opposite to @TenantResource</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Spring-boot-saas maintained by <a href="https://github.com/yukinami">yukinami</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
